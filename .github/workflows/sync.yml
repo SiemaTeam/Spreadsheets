@@ -1,0 +1,26 @@
+name: Sync to Upstream
+
+on:
+  schedule:
+    - cron:  '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  sync_with_upstream:
+    runs-on: ubuntu-latest
+    name: Sync Upstream
+
+    steps:
+    - name: Checkout HEAD
+      uses: actions/checkout@v2
+      with:
+        ref: master
+
+    - name: Pull upstream changes
+      id: sync
+      uses: aormsby/Fork-Sync-With-Upstream-action@9e2e4fd0829a2fe8ca4b13693faac9230c414d51 #3.4
+      with:
+        upstream_repository: exceljs/exceljs
+        upstream_branch: master
+        target_branch: master   
+        target_repo_token: ${{ secrets.GITHUB_TOKEN }}
