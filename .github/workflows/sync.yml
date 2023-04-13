@@ -22,5 +22,5 @@ jobs:
       with:
         upstream_sync_repo: exceljs/exceljs
         upstream_sync_branch: master
-        target_branch: master   
+        target_sync_branch: master   
         target_repo_token: ${{ secrets.GITHUB_TOKEN }}
