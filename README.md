@@ -2,4 +2,7 @@
 
 It's fork of https://github.com/exceljs/exceljs
 
-Join us on Discord: https://discord.gg/BqTQGHDKw8
+Join us on Discord: https://discord.gg/siema
+
+
+
