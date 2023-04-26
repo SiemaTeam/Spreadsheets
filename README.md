@@ -1,20 +1,14 @@
-# ExcelJS
-
-[![Build status](https://github.com/exceljs/exceljs/workflows/ExcelJS/badge.svg)](https://github.com/exceljs/exceljs/actions?query=workflow%3AExcelJS)
-
-Read, manipulate and write spreadsheet data and styles to XLSX and JSON.
-
-Reverse engineered from Excel spreadsheet files as a project.
-
-# Translations
-
-* [中文文档](README_zh.md)
+# @siema-team/spreadsheets is up-to-date fork of ExcelJS
 
 # Installation
 
 ```shell
-npm install exceljs
+npm install @siema-team/spreadsheets
 ```
+
+Our Discord server: https://discord.com/siema
+
+---
 
 # New Features!
 

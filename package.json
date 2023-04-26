@@ -1,8 +1,8 @@
 {
-  "name": "exceljs",
-  "version": "4.3.0",
-  "description": "Excel Workbook Manager - Read and Write xlsx and csv Files.",
-  "private": false,
+  "name": "@siema-team/spreadsheets",
+  "version": "1.0.202304250000",
+  "description": "Spreadsheet Workbook Manager - Read and Write xlsx and csv Files.",
+  "public": true,
   "license": "MIT",
   "author": {
     "name": "Guyon Roche",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/exceljs/exceljs.git"
+    "url": "https://github.com/SiemaTeam/spreadsheets"
   },
   "engines": {
     "node": ">=8.3.0"
